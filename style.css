@@ -3,12 +3,59 @@ body {
   background-color: #1F2937;
 }
 
-.top {
+.container {
   display: flex;
   color: #F9FAF8;
-  align-content: space-between;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
+  font-size: 24px;
+  flex-grow: 1;
+}
 
+.header-links {
+  font-size: 18px;
+  color: #E5E7EB;
+  align-self: center;
+  padding: 12px;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.awesome {
+  font-size: 48px;
+}
+
+.image-1 {
+  flex-grow: 5;
+}
+
+.random-info {
+  background-color: white;
+  text-align: center;
+  color: black;
+  margin: 0;
+}
+
+.container-3 {
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.image-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-4 {
+  display: flex;
+  background-color: #E5E7EB;
+  color: #1F2937;
 }
