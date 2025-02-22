@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #1F2937;
+  margin: 0
 }
 
 .container {
@@ -8,6 +9,7 @@ body {
   color: #F9FAF8;
   justify-content: space-between;
   align-items: center;
+  padding: 60px;
 }
 
 .logo {
@@ -30,32 +32,80 @@ body {
 
 .awesome {
   font-size: 48px;
+  margin: 0;
+}
+
+.awesome-subtext {
+  margin-top: 12px;
+  padding-right: 32px;
 }
 
 .image-1 {
-  flex-grow: 5;
+  width: 1200px;
+  align-self: center;
+}
+
+.sign-up-button {
+  background-color: #3882F6;
+  color: white;
+  width: 120px;
+  height: 30px;
+  padding: 0;
+  border: 0;
 }
 
 .random-info {
   background-color: white;
   text-align: center;
   color: black;
-  margin: 0;
+  margin: 0px;
+  padding-top: 20px;
 }
 
 .container-3 {
   display: flex;
-  align-items: center;
+  justify-content: center;
   background-color: white;
+  padding: 10px 60px;
+  padding-bottom: 60px;
 }
 
 .image-text {
   display: flex;
   flex-direction: column;
+  height: 175px;
+  width: 175px;
+  align-self: flex-end;
 }
 
 .container-4 {
   display: flex;
   background-color: #E5E7EB;
   color: #1F2937;
+  width: 900px;
+  justify-content: center;
+  padding: 45px 180px;
+  flex-direction: column;
 }
+
+.quote {
+  width: 700px;
+  font-size: 36px;
+  margin-bottom: 12px;
+  text-align: justify;
+  align-self: center;
+}
+
+.author {
+  text-align: right;
+  width: 700px;
+  align-self: center;
+  margin: 0;
+}
+
+.container-5 {
+  display: flex;
+  justify-content: center;
+  padding: 45px;
+}
+
