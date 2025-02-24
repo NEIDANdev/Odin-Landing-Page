@@ -41,7 +41,7 @@ body {
 }
 
 .image-1 {
-  width: 1200px;
+  width: 400px;
   align-self: center;
 }
 
@@ -75,14 +75,13 @@ body {
   flex-direction: column;
   height: 175px;
   width: 175px;
-  align-self: flex-end;
+  justify-content: center;
 }
 
 .container-4 {
   display: flex;
   background-color: #E5E7EB;
   color: #1F2937;
-  width: 900px;
   justify-content: center;
   padding: 45px 180px;
   flex-direction: column;
@@ -104,8 +103,40 @@ body {
 }
 
 .container-5 {
+  background-color: white;
   display: flex;
   justify-content: center;
-  padding: 45px;
+  padding: 40px;
 }
 
+.sign-up-banner {
+  background-color: #3882F6;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;  
+  width: 800px;
+}
+
+.sign-texts {
+  flex-direction: column;
+}
+
+.call-text {
+  font-size: 24px;
+  margin: 0;
+}
+
+.call-subtext {
+  font-size: 18px;
+  margin: 0;
+}
+
+.log-button {
+  background-color: #3882F6;
+  margin: 10px;
+  padding: 0;
+  width: 90px;
+  color: white;
+  border: 1px solid white,
+}
