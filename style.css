@@ -28,6 +28,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  flex: 1 1 0;
 }
 
 .awesome {
@@ -41,12 +42,16 @@ body {
 }
 
 .image-1 {
-  width: 400px;
   align-self: center;
+  height: 300px;
+  flex-grow: 1;
+  text-align: center;
+  align-content: center;
 }
 
 .sign-up-button {
   background-color: #3882F6;
+  border-radius: 5px;
   color: white;
   width: 120px;
   height: 30px;
@@ -70,12 +75,19 @@ body {
   padding-bottom: 60px;
 }
 
+.images {
+  height: 200px;
+  margin: 15px;
+  border: 2px solid black;
+  border-radius: 20px;
+  align-content: center;
+}
+
 .image-text {
   display: flex;
   flex-direction: column;
-  height: 175px;
-  width: 175px;
-  justify-content: center;
+  align-items: stretch;
+  text-align: center;
 }
 
 .container-4 {
@@ -111,6 +123,7 @@ body {
 
 .sign-up-banner {
   background-color: #3882F6;
+  border-radius: 5px;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -123,17 +136,18 @@ body {
 }
 
 .call-text {
-  font-size: 24px;
+  font-size: 18px;
   margin: 0;
 }
 
 .call-subtext {
-  font-size: 18px;
+  font-size: 16px;
   margin: 0;
 }
 
 .log-button {
   background-color: #3882F6;
+  border-radius: 5px;
   margin: 10px;
   padding: 0;
   width: 90px;
